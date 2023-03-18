@@ -1,6 +1,6 @@
 #include <iostream>
 #include "Tests.h"
 int main() {
-    Tests::Test1();
+    Tests::Test2();
     return 0;
 }
