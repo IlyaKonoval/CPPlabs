@@ -1,18 +1,13 @@
 #ifndef CPPLABS_ALGO_H
 #define CPPLABS_ALGO_H
-class Algo {
-private:
+#include <vector>
 
-public:
-    template <class InputIterator, class UnaryPredicate>
-    static bool none_of(InputIterator first, InputIterator last, UnaryPredicate pred);
-
-    template <class InputIterator, class UnaryPredicate>
-    static bool any_of(InputIterator first, InputIterator last, UnaryPredicate pred);
-
-    template <class InputIterator, class UnaryPredicate>
-    bool all_of (InputIterator first, InputIterator last, UnaryPredicate pred);
-};
-
+bool none_of(std::vector<int> &vector, bool condition(int *a));
+bool is_sorted(std::vector<int> &vector, bool condition(int *a, int *b));
+int find_backward(std::vector<int> &vector, int *x);
+bool equal_to_five(int *x);
+bool is_odd(int *x);
+bool non_decreasing(int *a, int *b);
+bool increasing(int *a, int *b);
 
 #endif //CPPLABS_ALGO_H
