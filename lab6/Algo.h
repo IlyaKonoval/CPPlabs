@@ -10,4 +10,4 @@ bool is_odd(int *x);
 bool non_decreasing(int *a, int *b);
 bool increasing(int *a, int *b);
 
-#endif //CPPLABS_ALGO_H
+#endif //CPPLABS_ALGO_H.

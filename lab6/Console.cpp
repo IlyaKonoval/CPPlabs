@@ -5,3 +5,4 @@ void Console::print(bool x) {
 void Console::print(int x) {
     std::cout << x << '\n';
 }
+//1

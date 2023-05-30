@@ -9,3 +9,4 @@ public:
 
 
 #endif //CPPLABS_CONSOLE_H
+//1
