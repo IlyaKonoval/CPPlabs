@@ -30,4 +30,4 @@ bool non_decreasing(int *a, int *b) {
 bool increasing(int *a, int *b) {
     return *a > *b;
 }
-
+//1
